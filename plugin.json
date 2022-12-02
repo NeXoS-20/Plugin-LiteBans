@@ -1,11 +1,11 @@
 {
-    "id": "litebans",
+    "id": "litebansplugin",
     "name": "LiteBans",
     "description": "Display the LiteBans punishments on your website.",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "url": "https://azuriom.com",
     "authors": [
-        "Bryan M."
+        "NeXoS_20."
     ],
     "azuriom_api": "1.0.0",
     "providers": [
