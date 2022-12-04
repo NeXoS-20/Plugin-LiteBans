@@ -35,7 +35,7 @@
 
                 <div class="mb-3">
                     <label for="password">{{ trans('litebans::admin.settings.password') }}</label>
-                    <input class="form-control" id="password" name="password" value="{{ $password }}"
+                    <input class="form-control" id="password" name="password" type="password" value="{{ $password }}"
                            required="required">
                 </div>
             </div>
