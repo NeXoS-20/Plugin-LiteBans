@@ -23,7 +23,7 @@
   </div>
 </nav>
 
-@if(session()->has('error-search'))
+if(session()->has('error-search'))
 <div class="alert alert-danger alert-search alert-dismissible fade show mt-3" role="alert">
     <i class="bi bi-exclamation-circle-fill"></i>
     {{ session()->get('error-search') }}
@@ -31,4 +31,4 @@
         <span aria-hidden="true">×</span>
     </button>
 </div>
-@endif
+endif
