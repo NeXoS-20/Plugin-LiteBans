@@ -1,6 +1,6 @@
 <h2>{{ trans('litebans::messages.title') }}</h2>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white border rounded mb-4">
+<nav class="navbar navbar-expand-lg border rounded mb-4">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
     </button>
