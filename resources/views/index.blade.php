@@ -20,15 +20,11 @@
             @forelse ($bans as $ban)
                 <tr class="text-nowrap">
                     <td>
-                        <a href="{{ route('litebans.history', $ban->name) }}">
                             <img src="https://mc-heads.net/avatar/{{ $ban->name }}/25" alt="{{ $ban->name }}">
                             {{ $ban->name }}
-                        </a>
                     </td>
                     <td>
-                        <a href="{{ route('litebans.history.issued', $ban->banned_by_uuid) }}">
                             {{ $ban->banned_by_name }}
-                        </a>
                     </td>
                     <td class="d-lg-table-cell d-none">{{ $ban->reason }}</td>
                     <td>{{ format_date($ban->time) }}</td>
