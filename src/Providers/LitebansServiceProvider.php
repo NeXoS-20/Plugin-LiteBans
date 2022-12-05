@@ -85,11 +85,6 @@ class LitebansServiceProvider extends BasePluginServiceProvider
      */
     protected function userNavigation()
     {
-        return [
-            'litebans' => [
-                'route' => 'litebans.profile',
-                'name' => 'Mes sanctions',
-            ],
-        ];
+
     }
 }

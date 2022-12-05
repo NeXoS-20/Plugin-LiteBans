@@ -2,10 +2,10 @@
     "id": "litebans",
     "name": "LiteBans",
     "description": "Display the LiteBans punishments on your website.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "url": "https:\/\/azuriom.com",
     "authors": [
-        "NeXoS_20"
+        "NeXoS_20, NyoN Banane"
     ],
     "azuriom_api": "1.0.0",
     "providers": [
