@@ -11,13 +11,6 @@
             <li class="nav-item {{ request()->routeIs('litebans.kick') ? 'active' : ''}}"><a class="nav-link" href="{{ route('litebans.kick') }}">{{ trans('litebans::messages.navigation.kicks') }}({{ $kicksCount }})</a></li>
             <li class="nav-item {{ request()->routeIs('litebans.warn') ? 'active' : ''}}"><a class="nav-link" href="{{ route('litebans.warn') }}">{{ trans('litebans::messages.navigation.warns') }}({{ $warnsCount }})</a></li>
       </ul>
-      <form class="row g-3" action="{{ route('litebans.search') }}" method="GET">
-          <div class="col-auto">
-              <input class="form-control"type="text" placeholder="{{ trans('litebans::messages.navigation.search') }}" aria-label="Search" name="q">
-          </div>
-          <div class="col-auto">
-              <button class=" btn btn-primary my-2 my-sm-0 " type="submit"><i class="bi bi-search"></i></button>
-          </div>
       </form>
     </div>
   </div>
