@@ -1,4 +1,4 @@
-trans<?php
+<?php
 
 namespace Azuriom\Plugin\Litebans\Controllers;
 
@@ -17,7 +17,7 @@ class LitebansHistoryController extends LitebansController
         $uuid = History::where('name', $name)->value('uuid');
 
         if ($uuid === null) {
-            return back()->with trans(trans'error', "Cet utilisateur n'existe pas");
+            return back()->with('error', "Cet utilisateur n'existe pas");
         }
 
         $user = [
@@ -34,7 +34,7 @@ class LitebansHistoryController extends LitebansController
         $uuid = History::where('name', $name)->value('uuid');
 
         if ($uuid === null) {
-            return back()->with trans('error', "Cet utilisateur n'existe pas");
+            return back()->with('error', "Cet utilisateur n'existe pas");
         }
 
         $user = [
